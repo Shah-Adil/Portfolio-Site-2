@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal website 2</title>
+    <!-- Favicon  -->
+    <link
+      rel="icon"
+      href="https://opstelit.com/assets/img/uploaded/Site_setting/202305292025logo.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- =========== FONT AWESOME CSS CDN ===========-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <!-- =========== MAGNIFIC POPUP CSS CDN ===========-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ================================
+    HEADER SECTION START
+    ================================= -->
+    <header>
+      <!-- container -->
+      <div class="container">
+        <!-- logo -->
+        <div class="logo">
+          <a href="#"><img src="Images/logo.png" alt="logo" /></a>
+        </div>
+        <!-- nav -->
+        <nav>
+          <ul class="" id="nav_bar">
+            <li>
+              <a class="header_active active_color" href="#biographi"
+                >Biographi</a
+              >
+            </li>
+            <li><a class="active_color" href="#about">About</a></li>
+            <li><a class="active_color" href="#business">Business</a></li>
+            <li><a class="active_color" href="#gallery">Gallery</a></li>
+            <li class="contact">
+              <a class="active_color" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <!-- max width 768 pixel show  -->
+          <div class="social_icon social_show">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <!-- close  -->
+          <img class="close" src="Images/icon/close.png" alt="" />
+        </nav>
+        <img class="nav_icon" src="Images/icon/menu.png" alt="" />
+        <!-- nav menu icon  -->
+        <!-- max width 768 pixel none  -->
+        <div class="social_icon social_none">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <!-- Contact btn  -->
+      </div>
+    </header>
+    <!-- ================================
+        HEADER SECTION END
+    ================================= -->
+
+    <!-- ================================
+        HERO  SECTION START
+    ================================= -->
+    <section class="hero_section" id="biographi">
+      <div class="container">
+        <!-- hero_tex  dex_none mob_show-->
+        <div class="hero_img_none">
+          <img class="bg_shape" src="Images/hero_image.png" alt="" />
+        </div>
+        <div class="hero_tex">
+          <h5>Hi There</h5>
+          <h1>I am Sultan Ahmad</h1>
+          <h6>Profetional Businessman</h6>
+          <p>
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+          <!-- button_flex -->
+          <div class="button_flex">
+            <a href="" class="con_btn Contact_btn">About me</a>
+            <a href="" class="bio_btn Contact_btn">My Business</a>
+          </div>
+          <img class="Vector_shape" src="Images/shape/Vector 2.png" alt="" />
+        </div>
+        <!-- hero_img -->
+        <div class="hero_img">
+          <img class="hero_about_img" src="Images/hero_image.png" alt="" />
+          <!-- bg_shape  -->
+          <img class="bg_shape" src="Images/shape/bg shape.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- ================================
+        HERO  SECTION END 
+    ================================= -->
+
+    <!-- ================================
+        ABOUT  SECTION START
+    ================================= -->
+    <section class="about_section" id="about">
+      <div class="container">
+        <div class="image_aria">
+          <div class="image_about">
+            <img class="main" src="Images/about/About img.png" alt="" />
+            <img
+              class="image_ahape"
+              src="Images/shape/about shape.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="description_aria">
+          <ul class="filters">
+            <button
+              class="active_des active_desss"
+              onclick="openCity('details_item1')"
+            >
+              My Story
+            </button>
+            <button class="active_desss" onclick="openCity('details_item2')">
+              Business
+            </button>
+            <button class="active_desss" onclick="openCity('details_item3')">
+              About me
+            </button>
+          </ul>
+
+          <div class="details_item" id="details_item1">
+            <div class="Story item">
+              <h2>My Story 1</h2>
+              <p>
+                Hello! I’m Sultan Ahmad. Senior Web Developer specializing in
+                front end development. Experienced with all stages of the
+                development cycle for dynamic web projects. Well-versed in
+                numerous programming languages including JavaScript, SQL, and C.
+                Stng background in project management and customer relations.
+              </p>
+              <h4>I Do Business and Partnership since I Was 18 Years Old</h4>
+              <p class="hand_sign">Sultan Ahmed</p>
+            </div>
+          </div>
+          <div class="details_item" id="details_item2" style="display: none">
+            <div class="Story item">
+              <h2>My Story 2</h2>
+              <p>
+                Hello! I’m Sultan Ahmad. Senior Web Developer specializing in
+                front end development. Experienced with all stages of the
+                development cycle for dynamic web projects. Well-versed in
+                numerous programming languages including JavaScript, SQL, and C.
+                Stng background in project management and customer relations.
+              </p>
+              <h4>I Do Business and Partnership since I Was 18 Years Old</h4>
+              <p class="hand_sign">Sultan Ahmed</p>
+            </div>
+          </div>
+          <div class="details_item" id="details_item3" style="display: none">
+            <div class="Story item">
+              <h2>My Story 3</h2>
+              <p>
+                Hello! I’m Sultan Ahmad. Senior Web Developer specializing in
+                front end development. Experienced with all stages of the
+                development cycle for dynamic web projects. Well-versed in
+                numerous programming languages including JavaScript, SQL, and C.
+                Stng background in project management and customer relations.
+              </p>
+              <h4>I Do Business and Partnership since I Was 18 Years Old</h4>
+              <p class="hand_sign">Sultan Ahmed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================================
+        ABOUT  SECTION END
+    ================================= -->
+
+    <!-- ================================
+        BUSINESS  SECTION STAR
+    ================================= -->
+    <section class="business_section" id="business">
+      <h2>My Business</h2>
+      <div class="container">
+        <div class="business_item">
+          <div class="business left">
+            <img src="Images/business/business1.png" alt="" />
+            <h5>British Council (sylhet)</h5>
+            <p>Business Partner</p>
+            <span>Since 26-02-2014</span>
+            <div class="border_aroer"></div>
+            <div class="border_line_aroer"></div>
+          </div>
+          <div class="business right">
+            <img src="Images/business/business2.png" alt="" />
+            <h5>British Council (sylhet)</h5>
+            <p>Business Partner</p>
+            <span>Since 26-02-2014</span>
+            <div class="border_aroer"></div>
+            <div class="border_line_aroer"></div>
+          </div>
+          <div class="business left">
+            <img src="Images/business/business3.png" alt="" />
+            <h5>British Council (sylhet)</h5>
+            <p>Business Partner</p>
+            <span>Since 26-02-2014</span>
+            <div class="border_aroer"></div>
+            <div class="border_line_aroer"></div>
+          </div>
+          <div class="business right">
+            <img src="Images/business/business4.png" alt="" />
+            <h5>British Council (sylhet)</h5>
+            <p>Business Partner</p>
+            <span>Since 26-02-2014</span>
+            <div class="border_aroer"></div>
+            <div class="border_line_aroer"></div>
+          </div>
+          <div class="business left">
+            <img src="Images/business/business2.png" alt="" />
+            <h5>British Council (sylhet)</h5>
+            <p>Business Partner</p>
+            <span>Since 26-02-2014</span>
+            <div class="border_aroer"></div>
+            <div class="border_line_aroer"></div>
+          </div>
+          <!-- shape image position  -->
+          <!-- <img class="myWork_shape" src="Images/shape/myWork_shape.png" alt=""> -->
+        </div>
+      </div>
+    </section>
+    <!-- ================================
+        BUSINESS  SECTION END 
+    ================================= -->
+
+    <!-- ================================
+        GALLERY  SECTION START
+    ================================= -->
+    <section class="gallery_section" id="gallery">
+      <div class="container gallery_mag">
+        <h2>My Gallery</h2>
+
+        <div class="gallery_top" id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')">
+            All Photo
+          </button>
+          <button class="btn" onclick="filterSelection('cars')">
+            Gallery 1
+          </button>
+          <button class="btn" onclick="filterSelection('animals')">
+            Gallery 2
+          </button>
+          <button class="btn" onclick="filterSelection('fruits')">
+            Gallery 3
+          </button>
+        </div>
+
+        <div class="wrapper">
+          <a href="Images/gallery/gallery1.png" class="filterDiv cars">
+            <img src="Images/gallery/gallery1.png" alt="" />
+          </a>
+          <a href="Images/gallery/gallery2.png" class="filterDiv colors fruits">
+            <img src="Images/gallery/gallery2.png" alt="" />
+          </a>
+          <a href="Images/gallery/gallery3.png" class="filterDiv cars">
+            <img src="Images/gallery/gallery3.png" alt="" />
+          </a>
+          <a href="Images/gallery/gallery4.png" class="filterDiv colors">
+            <img src="Images/gallery/gallery4.png" alt="" />
+          </a>
+          <a href="Images/gallery/gallery5.png" class="filterDiv cars">
+            <img src="Images/gallery/gallery5.png" alt="" />
+          </a>
+          <a href="Images/gallery/gallery6.png" class="filterDiv colors">
+            <img src="Images/gallery/gallery6.png" alt="" />
+          </a>
+          <a href="Images/gallery/gallery7.png" class="filterDiv animals">
+            <img src="Images/gallery/gallery7.png" alt="" />
+          </a>
+          <a href="Images/gallery/gallery8.png" class="filterDiv animals">
+            <img src="Images/gallery/gallery8.png" alt="" />
+          </a>
+          <a href="Images/gallery/gallery9.png" class="filterDiv fruits">
+            <img src="Images/gallery/gallery9.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- ================================
+        GALLERY  SECTION END
+    ================================= -->
+
+    <!-- ================================
+        CONTACT SECTION STAR
+    ================================= -->
+    <section class="contact_form_section" id="contact">
+      <h2>Contact Me</h2>
+      <div class="container">
+        <div class="email_item">
+          <div class="phone">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <h6>Phone Nomber</h6>
+            <p>017 1234 5678</p>
+          </div>
+          <div class="email">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <h6>Email Now</h6>
+            <p>khaled1000@gmail.com</p>
+          </div>
+        </div>
+        <div class="form_item">
+          <form action="" id="contact-form">
+            <div class="input_flex name">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+                required=""
+              />
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input_flex emain">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+                required=""
+              />
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <textarea
+              placeholder="Write a message"
+              required=""
+              name="message"
+              id="message"
+              cols="30"
+              rows="7"
+            ></textarea>
+            <input class="input_btn" type="submit" value="Button" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- ================================
+        CONTACT SECTION END
+    ================================= -->
+
+    <!-- ================================
+        SCROLL BUTTON
+    ================================= -->
+    <button id="btnScrollToTop">
+      <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+    </button>
+
+    <!-- ================================
+        FOOTER SECTION STAR
+    ================================= -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer_logo">
+          <div class="logo">
+            <img src="Images/logo.png" alt="" />
+          </div>
+          <p>
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.
+          </p>
+        </div>
+        <div class="follow_me">
+          <h4>Follow me</h4>
+          <div class="social_link">
+            <!-- facebook Link  -->
+            <div class="social_item">
+              <a href="" class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <div class="link_item">
+                <a href="#" class="soc_link">Feacbook</a>
+              </div>
+            </div>
+            <!-- twiter Link  -->
+            <div class="social_item">
+              <a href="" class="icon">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <div class="link_item">
+                <a href="#" class="soc_link">Twitter</a>
+              </div>
+            </div>
+            <!-- instagram Link  -->
+            <div class="social_item">
+              <a href="" class="icon">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <div class="link_item">
+                <a href="#" class="soc_link">Linkedin</a>
+              </div>
+            </div>
+            <!-- instagram Link  -->
+            <div class="social_item">
+              <a href="" class="icon">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+              <div class="link_item">
+                <a href="#" class="soc_link">Tnstagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy_right">
+        <div class="cintainer">
+          <p>© 2022 <a href="#">Adil Shah</a> All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- ================================
+        FOOTER SECTION END
+    ================================= -->
+
+    <!-- =========== JQUERY JS CDN ===========-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- =========== MAGNIFIC POPUP JS CDN ===========-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <!-- ============  email js ================== -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <!-- =========== SCRIPT JS ===========-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
